@@ -1,4 +1,4 @@
-Arrow functions
+<h3>2. Arrow functions</h3>
 
 old version without parameter
 ```
