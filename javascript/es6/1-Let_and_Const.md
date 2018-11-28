@@ -1,8 +1,8 @@
-1. Let and Const
+<h3>1. Let and Const </h3>
 
-Let & Const
 Let은 scope 가 있다. Block 안에서 선언했다면 밖에서 사용할 수 없다
 Let has a blocked scope. If you declared a variable with let inside a block, you cannot use it outside of the blocked scope.
+
 eg)
 ```
 let a = 0;
