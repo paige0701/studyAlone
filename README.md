@@ -6,12 +6,12 @@ Since I studied Business Administration in university, I have always thought I l
 Things like What is a CPU, how does HTTP work ? What is a RAM? ETC. 
 All the basics that is crucial for solving complex algorithms.
 
-I'm going to start to scratch.
+I'm going to start from scratch.
 
 From fundamentals of computer science,
 basic algorithms
-computer structures, networks and how does internet work!
-And finally PYTHON.
+data structures, networks and how does internet work!
+And one language PYTHON.
 
 My goal is to study little by little everyday.
 It is hard because I'm a full time programmer and I have sooooo much work ...
