@@ -1,0 +1,58 @@
+# project level
+**/h2db
+**/indexes
+**/metastore_db
+
+# Language compiled files
+*.class
+*.pyc
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Temporaries
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# eclipse project files
+**/.classpath
+**/.project
+**/.settings/
+.project
+.loadpath
+.settings/
+
+# intelliJ IDEA project files
+.idea/
+*.iml
+
+# Angular
+**/node
+**/node_modules
+
+# maven target files
+target/
+**/target/
+
+
+# Git properties
+**/git.properties
+
+# Log file
+*.log
+
+# Package Files
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
