@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calculator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python-as-calculator/calculator.py">
+      <file leaf-file-name="strings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-as-calculator/strings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="240">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numbers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-as-calculator/numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -26,6 +35,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/python-as-calculator/calculator.py" />
+        <option value="$PROJECT_DIR$/python-as-calculator/basics.py" />
+        <option value="$PROJECT_DIR$/python-as-calculator/numbers.py" />
+        <option value="$PROJECT_DIR$/python-as-calculator/strings.py" />
       </list>
     </option>
   </component>
@@ -36,9 +48,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="863" />
-    <option name="y" value="23" />
-    <option name="width" value="902" />
+    <option name="x" value="789" />
+    <option name="y" value="30" />
+    <option name="width" value="717" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -97,7 +109,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="23" width="902" height="1027" extended-state="0" />
+    <frame x="789" y="30" width="717" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -107,7 +119,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25388026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31938633" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -130,10 +142,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python-as-calculator/calculator.py">
+    <entry file="file://$PROJECT_DIR$/python-as-calculator/numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-as-calculator/strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>

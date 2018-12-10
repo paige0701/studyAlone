@@ -17,6 +17,19 @@ def number_arithmetic_test():
     print(17 % 3)
     # 2
 
+    # squared
+    print(5**2)
+    # 25
+
+    # multiplication
+    print(1*2)
+
+    # subtraction
+    print(10-8)
+
+    # addition
+    print(12+3)
+
 
 def main():
     number_arithmetic_test()
