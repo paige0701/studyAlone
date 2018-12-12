@@ -25,4 +25,55 @@ for i in range(len(words)):
     print('print item with index --> {0}'.format(words[i]))
 
 
+print('-----------------')
 
+
+# break statements
+A_list = [1, 2, 3, 4, 5]
+for i in A_list:
+    if i == 1:
+        break
+    else:
+        print('else {0}'.format(i))
+
+# since first value in the array is 1, this for loop will not print anything on the screen
+# It will break out of for loop when break keyword is met in the first condition is i == 1 ?
+
+print('-----------------')
+
+
+# continue statement
+for i in A_list:
+    if i == 1:
+        continue
+    else:
+        print('else {0}'.format(i))
+
+# Continue is a bit different to break.
+# Continues to the next iteration.
+
+
+# pass statement - commonly used for creating minimal classes
+class MyEmptyClass:
+    pass
+
+
+# Defining functions
+def greetings():
+    print('Good afternoon')
+
+
+def multiple_parameters(name, age):
+    print('Hi my name is {0} and I\'m {1} years old'.format(name, age))
+
+
+def default_parameters(gender, name='Paige', age=15):
+    print(gender)
+    print(name)
+    print(age)
+
+
+if __name__ == '__main__':
+    greetings()
+    multiple_parameters('Paige', 15)
+    default_parameters('Female', age=25)
