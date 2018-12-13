@@ -73,7 +73,51 @@ def default_parameters(gender, name='Paige', age=15):
     print(age)
 
 
+# Keyword argument
+
+# interesting how you can use
+# (1 asterisk + valueName) to get a tuple
+# (2 asterisk + valueName) to get a dictionary type
+
+# *name must come before **another
+def coffeeshop(coffee, *arguments, **keywords):
+    print("Do you have " + coffee + "?")
+    print('Yes we do have ' + coffee)
+
+    for arg in arguments:
+        print(arg)
+
+    for key in keywords:
+        print(keywords[key])
+
+    # you can also sort keys in alphabetical order
+    keys = sorted(keywords.keys())
+    for key in keys:
+        print(keywords[key])
+
+
+# arbitrary argument list
+# interesting how only works with python3
+def random(*args, sep=","):
+    print(sep.join(args))
+
+
+# unpacking argument lists
+# end=' ' continue in the same line.
+def parrot(voltage, state='a stiff', action='voom'):
+    print("-- This parrot wouldn't", action, end=' ')
+    print("if you put", voltage, "volts through it.", end=' ')
+    print("E's", state, "!")
+
+
 if __name__ == '__main__':
     greetings()
     multiple_parameters('Paige', 15)
     default_parameters('Female', age=25)
+    coffeeshop("Latte", "It's very hot.", "It's too cold",
+               shopkeeper="Michael Palin",
+               client="Joshn Cleese",
+               sketch="Cheese Shop Sketch")
+    random('hi', 'bye', sep=".")
+    d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+    parrot(**d)
