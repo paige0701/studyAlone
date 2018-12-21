@@ -36,6 +36,49 @@ def listmethods():
     print(a)
     # [100, 1, 3, 4, 5]
 
+    # ------------------------------------
+
+    # .pop
+    b = [1, 2, 3, 4, 5]
+    b.pop()
+    print(b)
+    # deletes last element in the list
+
+    b.pop(0)
+    print(b)
+    # delete item at the given position in the list. in this case 0 -> 1st item in the list
+
+    # ------------------------------------
+
+    # .clear() removes all items in the list
+    c = [1, 2, 3, 4]
+    c.clear()
+    print(c)
+
+    c = [2, 3, 4]
+    del c[:]
+    print(c)
+    # this is same as .clear()
+
+    # ------------------------------------
+
+    # .index(x) finds the position of x in the list
+    d = [1, 2, 3, 4]
+    print(d.index(1))  # returns 0
+
+    d = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5]
+    print(d.index(1, 4))  # returns 6 - find index of 1 after position 4
+
+    d = [1, 2, 5, 6, 1, 2, 3, 4, 5, 1, 2, 1]
+    # returns 0 - looks for 1 in list position 0 ~ 5 - there's two ones but returns first found index
+    print(d.index(1, 0, 5))
+
+    # ------------------------------------
+    # .count(x) - counts number of x is in the list
+    print(d.count(1))  # returns 4
+
+
+
 
 
 def main():
