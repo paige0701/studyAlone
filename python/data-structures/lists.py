@@ -77,8 +77,22 @@ def listmethods():
     # .count(x) - counts number of x is in the list
     print(d.count(1))  # returns 4
 
+    # ------------------------------------
+    # .sort(key=None, reverse = false) - key 부분은 더 공부해야겠다.. 잘 모르겠음
+    e = ['apple', 'jam', 'air', 'zebra']
+    e.sort()  # ['air', 'apple', 'jam', 'zebra']
+    e.sort(reverse=True)  # ['zebra', 'jam', 'apple', 'air']
+    e.reverse()  # is same ase e.sort(reverse = True)
+    print(e)
 
-
+    # ------------------------------------
+    # list.copy() - Returns shallow copy of the list same as a[:]
+    f = [1, 2, 3, 4]
+    g = f.copy()
+    print(g)
+    f[2] = 100
+    print(g)  # [1, 2, 3, 4]
+    print(f)  # [1, 2, 100, 4]
 
 
 def main():
