@@ -94,6 +94,25 @@ def listmethods():
     print(g)  # [1, 2, 3, 4]
     print(f)  # [1, 2, 100, 4]
 
+    # ------------------------------------
+    # Using list as deque
+    from collections import deque
+    queue = deque(["Eric", "John", "Steve"])
+    queue.append("Jenny")
+    print(queue)
+    queue.popleft()
+    print(queue)
+
+    # ------------------------------------
+    squares = []
+    # for x in range(10):
+    #     squares.append(x**2)
+    #
+    # print(squares)
+
+    # this statement is same as the one before
+    squares = [x ** 2 for x in range(10)]
+    print(squares)
 
 def main():
     listmethods()
