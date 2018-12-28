@@ -1,24 +1,24 @@
 def listmethods():
 
-    list = [1, 2, 3, 4, 5]
+    list1 = [1, 2, 3, 4, 5]
 
     # .append
-    list.append(6)
-    print(list)
+    list1.append(6)
+    print(list1)
     # [1,2,3,4,5,6]
 
     # ------------------------------------
 
     # .extend
-    list.extend([3, 4, 5])
-    print(list)
+    list1.extend([3, 4, 5])
+    print(list1)
     # [1, 2, 3, 4, 5, 6, 3, 4, 5]
 
     # ------------------------------------
 
     # difference between extend and append
-    list.append([3, 4, 5])
-    print(list)
+    list1.append([3, 4, 5])
+    print(list1)
     # [1, 2, 3, 4, 5, 6, 3, 4, 5,[3,4,5]]s
 
     # ------------------------------------
@@ -113,6 +113,49 @@ def listmethods():
     # this statement is same as the one before
     squares = [x ** 2 for x in range(10)]
     print(squares)
+
+    squares = [-2, 0, 2, 4, 6, 8]
+
+    # create a new list with the values doubled
+    # squares = [x*2 for x in squares]
+
+    # filter the list to exclude negative numbers
+    # squares = [x for x in squares if x >= 0]
+
+    # apply a function to all the elements
+    squares = [abs(x) for x in squares]
+    print(squares)
+
+    freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
+    freshfruit = [weapon.strip() for weapon in freshfruit]  # .strip() is like .trim() in javascript
+    print(freshfruit)
+
+    # create a list of 2-tuples like (number, square)
+    # [x, x**2 for x in range(6)] tuple mush be parenthesized ! like (x, x**2)
+    yy = [(x, x**2) for x in range(6)]
+    print(yy)  # [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+
+    # flatten a list using a listcomp with two 'for'
+    vec = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    vec = [num for elem in vec for num in elem]
+    print(vec)
+
+    # ------------------------------------
+    # Nested List Comprehensions
+    matrix = [
+         [1, 2, 3, 4],
+         [5, 6, 7, 8],
+         [9, 10, 11, 12],
+     ]
+
+    # [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+
+    # matrix = [[row[x] for row in matrix] for x in range(4)]
+
+    list(zip(*matrix))
+
+    print(list(zip(*matrix)))
+
 
 def main():
     listmethods()
